@@ -23,10 +23,12 @@ average(13,9,5,47,6,5);
 console.log(`${sum}`);
 
 //zadanie4
+//grades.reduce( jakie parametry)
+
 sum = 0;
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 const [a,b,c,d,e,f,g,h,i] = grades;
-console.log(average(a,b,c,d,e,f,g,h,i));
+console.log(average(...grades));
 
 //zadanie5
 const structure = [1, 4, 'Tamara', false, 'Piotrowska'];
